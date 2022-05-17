@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">Hola, voy a desaparecer en 3 segundos!</div>
+    <div class="content2" style="display:none;">Hola, soy un nuevo div!</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            $(".content").fadeOut(1000);
+        },3000);
+    
+        setTimeout(function() {
+            $(".content2").fadeIn(1000);
+        },4000);
+    });
+</script>
+</body>
+
+</html>
