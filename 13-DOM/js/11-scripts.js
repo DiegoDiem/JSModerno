@@ -13,7 +13,5 @@ btnFlotante.addEventListener('click',()=>{
     }
     
 })
-console.log(btnFlotante)
-console.log(btnFlotante)
 
 console.log('asdadadadsad')
