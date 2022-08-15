@@ -17,3 +17,5 @@ btnFlotante.addEventListener('click',()=>{
 console.log('asdadadadsad')
 
 console.log('algo algo')
+console.log('asdadadadsad')
+console.log('asdadadadsad')
