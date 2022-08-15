@@ -21,6 +21,6 @@ console.log(meses2);
 
 
 const producto = { nombre: 'Disco Duro', precio: 300};
-const carrito2 =[...carrito, prodcuto];
+const carrito2 =[...carrito, producto];
 
 console.log(carrito2);
