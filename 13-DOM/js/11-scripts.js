@@ -13,3 +13,4 @@ btnFlotante.addEventListener('click',()=>{
     }
     
 })
+console.log(btnFlotante)
