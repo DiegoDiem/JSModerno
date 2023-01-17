@@ -28,10 +28,10 @@ const busqueda = document.querySelector('.busqueda');
     
 // })
 
-// busqueda.addEventListener('input',()=>{ // se hace alguna accion (evento) dentro del input
-//     console.log('detectar acciones');
+busqueda.addEventListener('input',()=>{ // se hace alguna accion (evento) dentro del input
+    console.log('detectar acciones');
     
-// })
+})
 
 busqueda.addEventListener('input',(e)=>{ // se hace alguna accion (evento) dentro del input
     if (e.target.value==='') {
