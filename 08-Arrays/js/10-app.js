@@ -1,9 +1,9 @@
 const carrito = [
-    {nombre: 'Monitor 26 pulgadas', precio:4500, sellers:['doto', 'walmart']},
-    {nombre: 'Celular', precio:100, sellers:['walmart', 'amazon']},
-    {nombre: 'teclado', precio:312 , sellers:['amazon', 'HEB']},
-    {nombre: 'USB', precio:500 , sellers:['doto', 'similares']},
-    {nombre: 'Ratón', precio:1250 , sellers:['coso', 'fulano']},
+    {nombre: 'Monitor 26 pulgadas', precio:4500},
+    {nombre: 'Celular', precio:100},
+    {nombre: 'teclado', precio:312},
+    {nombre: 'USB', precio:500},
+    {nombre: 'Ratón', precio:1250},
 ]
 
 // No crea un nuevo arreglo
@@ -18,9 +18,3 @@ const nuevoArreglo2 = carrito.map( function(producto){
 
 console.log(nuevoArreglo)
 console.log(nuevoArreglo2)
-
-const sellers = carrito.map( p => p.sellers)
-const sellers2 = carrito.flatMap( p => p.sellers)
-console.log(sellers2)
-const set = new Set(sellers2)
-console.log(Array.from(set))
